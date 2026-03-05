@@ -1,0 +1,26 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-K9ukvm6d.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/css/stylereg.css": {
+    "file": "assets/stylereg-VHhi4TY6.css",
+    "src": "resources/css/stylereg.css",
+    "isEntry": true,
+    "name": "stylereg",
+    "names": [
+      "stylereg.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-CKl8NZMC.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
