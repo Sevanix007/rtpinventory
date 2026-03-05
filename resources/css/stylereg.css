@@ -1,0 +1,145 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e1e5e9;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===== Карточка ===== */
+
+.main-content {
+    width: 800px;
+    max-width: 95%;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden; /* чтобы ничего не вылазило */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    background: #ffffff;
+}
+
+/* ===== Левая часть ===== */
+
+.company__info {
+    width: 40%;
+    background: #3f48cc;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+.company__info img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 1rem;
+}
+
+/* ===== Правая часть ===== */
+
+.login_form {
+    width: 60%;
+    padding: 3rem 2rem;
+    background: #ffffff;
+}
+
+.login_form h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #3f48cc;
+}
+
+.login_form h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+     color: #3f48cc;
+}
+
+/* ===== Форма ===== */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 12px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+	font-weight: bold;
+    border-radius: 35px;
+    background-color: #eeeeee;
+}
+
+.form__input:focus {
+    border-bottom: 1px solid #008080;
+}
+
+.lbtn {
+    align-self: center;
+    width: 150px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #3f48cc;
+    background: white;
+    color: #3f48cc;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.3s;
+	font-size:16px;
+}
+
+.lbtn:hover {
+    background: #3f48cc;
+    color: white;
+}
+
+/* ===== Ссылка ===== */
+
+.register {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register a {
+    color: #6062db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register a:hover {
+    color: #212396;
+}
+
+/* ===== Адаптив ===== */
+
+@media (max-width: 768px) {
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    .company__info {
+        display: none; /* полностью скрываем */
+    }
+
+    .login_form {
+        width: 100%;
+    }
+}
